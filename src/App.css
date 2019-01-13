@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+background-color: #e9ecef;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 20s linear;*/
   height: 40vmin;
 }
 
@@ -29,4 +29,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.aboutme-content {
+  min-height: 100vh;
+
+}
+
+.img-avatar {
+  width: 250px;
+  height: 250px;
+  margin-top: 5em;
+  border-radius: 125px;
+  margin-bottom: 10px;
+}
+.jumbotron {
+margin-bottom: 0 !important; }
+
+.font-s {
+  font-size: 9px;
+}
+
+.margin-lef {
+  margin-top: 6rem!important;
+
+}
+.handy {
+  cursor: pointer;
 }
