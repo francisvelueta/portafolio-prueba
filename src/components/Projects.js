@@ -7,7 +7,7 @@ const Projects = (props) => {
     <div id="projects" className="aboutme-content">
       <h1 className="display-3">Proyectos</h1>
     <Row className="mr-0 ml-1">
-    <Col sm="12" xl="3" className="mt-2">
+    <Col sm="12" md="6"  xl="3" className="mt-2 mb-2">
     <div className="thecard">
       <Card className="thecard__side thecard__side--front shadow " style={{ Height: '320px'}} >
      <CardImg top width="50%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CrHaiDvhoVRpaWJu6PKHfm7fzNxMKfiXnuI7yB8r2iF9X4iG" alt="Card image cap" />
@@ -33,11 +33,11 @@ const Projects = (props) => {
     </div>
        </Col>
 
-  <Col sm="12" xl="3" className="mt-2">
+  <Col sm="12" md="6"  xl="3" className="mt-2 mb-2">
     <div className="thecard">
       <div className="thecard__side thecard__side--front">
       <Card className="thecard__side thecard__side--front shadow" >
-     <CardImg top width="60%" src="https://firebase.google.com/images/social.png" alt="Card image cap" />
+     <CardImg top width="60%" height="60%" src="https://firebase.google.com/images/social.png" alt="Card image cap" />
      <CardBody>
        <CardTitle className="font-weight-bold">Registro de visitantes</CardTitle>
        <CardText className="font-s">Es una aplicación Web que funciona para llevar el registro de visitantes de un WeWorking, el diseño es Mobile First(Exclusivo para tablets de cualquier modelo), envia una notificación via correo al visitado.</CardText>
@@ -60,7 +60,7 @@ const Projects = (props) => {
       </div>
     </div>
   </Col>
-  <Col sm="12" xl="3" className="mt-2">
+  <Col sm="12" md="6" xl="3" className="mt-2 mb-2">
     <div className="thecard">
       <div className="thecard__side thecard__side--front">
       <Card className="thecard__side thecard__side--front shadow" >
@@ -87,7 +87,7 @@ const Projects = (props) => {
       </div>
     </div>
   </Col>
-  <Col sm="12" xl="3" className="mt-2">
+  <Col sm="12" md="6"  xl="3" className="mt-2 mb-2">
     <div className="thecard">
       <div className="thecard__side thecard__side--front">
       <Card className="thecard__side thecard__side--front shadow">
