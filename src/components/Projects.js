@@ -27,8 +27,8 @@ const Projects = (props) => {
       <CardText ><i className="fas fa-certificate"></i> Materialize</CardText>
       <CardText ><i className="fas fa-certificate"></i> Google Api's</CardText>
       <CardText className="mb-4"><i className="fas fa-certificate"></i> Responsive Web</CardText>
-      <Button className=" float-left" color="danger" size="sm">Demo</Button>{' '}
-      <Button  className="float-right" size="sm">Repositorio</Button>
+      <Button href ="https://francisvelueta.github.io/cdmx-2018-06-bc-core-pm-foodmap/src/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
+      <Button  href ="https://github.com/francisvelueta/cdmx-2018-06-bc-core-pm-foodmap" className="float-right" size="sm">Código</Button>
      </CardBody>
    </Card>
       </div>
@@ -55,8 +55,8 @@ const Projects = (props) => {
        <CardText><i className="fas fa-certificate"></i> Materialize</CardText>
        <CardText><i className="fas fa-certificate"></i> Google Api's</CardText>
        <CardText className=""><i className="fas fa-certificate"></i> Responsive Web</CardText>
-         <Button className=" float-left" color="danger" size="sm">Demo</Button>{' '}
-         <Button  className="float-right" size="sm">Repositorio</Button>
+         <Button href ="https://francisvelueta.github.io/cdmx-2018-06-Registro-visitantes/src/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
+         <Button  href ="https://github.com/francisvelueta/cdmx-2018-06-Registro-visitantes/" className="float-right" size="sm">Código</Button>
      </CardBody>
    </Card>
       </div>
@@ -76,14 +76,14 @@ const Projects = (props) => {
       <div className="thecard__side thecard__side--back">
       <Card className="shadow height-card" >
       <CardBody >
-        <CardTitle className="mb-3 font-weight-bold">Herramientas</CardTitle>
+      <CardTitle className="mb-3 font-weight-bold">Herramientas</CardTitle>
        <CardText><i className="fas fa-certificate"></i> React JS</CardText>
        <CardText><i className="fas fa-certificate"></i> Redux</CardText>
        <CardText><i className="fas fa-certificate"></i> Materialize</CardText>
        <CardText><i className="fas fa-certificate"></i> Firebase</CardText>
        <CardText className=""><i className="fas fa-certificate"></i> Responsive Web</CardText>
-         <Button className=" float-left" color="danger" size="sm">Demo</Button>{' '}
-         <Button  className="float-right" size="sm">Repositorio</Button>
+         <Button href ="https://francisvelueta.github.io/cdmx-social-network-frameworks/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
+         <Button href ="https://github.com/francisvelueta/cdmx-social-network-frameworks" className="float-right" size="sm">Código</Button>
      </CardBody>
    </Card>
       </div>
@@ -109,8 +109,8 @@ const Projects = (props) => {
        <CardText><i className="fas fa-certificate"></i> Bootstrap</CardText>
        <CardText><i className="fas fa-certificate"></i> JSON</CardText>
        <CardText><i className="fas fa-certificate"></i> Google Charts</CardText>
-         <Button className=" float-left" color="danger" size="sm">Demo</Button>{' '}
-         <Button  className="float-right" size="sm">Repositorio</Button>
+         <Button href ="https://francisvelueta.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/" className=" float-left" color="danger" size="sm">Demo</Button>{' '}
+         <Button href ="https://github.com/francisvelueta/cdmx-2018-06-bc-core-am-data-dashboard" className="float-right" size="sm">Código</Button>
      </CardBody>
    </Card>
       </div>
