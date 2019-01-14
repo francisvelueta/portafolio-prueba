@@ -31,21 +31,21 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="danger" light expand="md" fixed="top">
-          <NavbarBrand className="text-white handy" onClick={this.scrollToTop}>Francis Velueta</NavbarBrand>
+          <NavbarBrand className="font-nice text-white font-weight-bold handy" onClick={this.scrollToTop}>Francis Velueta</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className=" ml-auto " navbar>
-              <NavItem>
+              <NavItem className="p-2">
             <Link
                   activeClass="active"
-                  className="text-white mr-3 handy"
+                  className="text-white mr-3 handy "
                   to="aboutme"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-50}
                   duration={500}> Acerca de Mi</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-2">
               <Link
                   activeClass="active"
                   className="text-white mr-3 handy"
@@ -55,7 +55,7 @@ export default class Example extends React.Component {
                   offset={-70}
                   duration={500}>Proyectos</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-2">
               <Link
                     activeClass="active"
                     className="text-white mr-3 handy"
@@ -65,7 +65,7 @@ export default class Example extends React.Component {
                     offset={-70}
                     duration={500}>Curriculum</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-2">
                 <Link
                     activeClass="active"
                     className="text-white handy"

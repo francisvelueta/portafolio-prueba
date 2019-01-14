@@ -46,9 +46,12 @@ background-color: #e9ecef;
 margin-bottom: 0 !important; }
 
 .font-s {
-  font-size: 9px;
+  font-size: 11px;
 }
 
+.text-shaw {
+    text-shadow: 5px 5px 5px black;
+}
 .margin-lef {
   margin-top: 6rem!important;
 
