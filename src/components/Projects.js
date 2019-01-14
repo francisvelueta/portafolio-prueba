@@ -1,16 +1,18 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, Button, Row, Col} from 'reactstrap';
-
+import Fade from 'react-reveal/Fade';
 const Projects = (props) => {
   return (
     <div id="projects" className="aboutme-content">
+      <Fade left>
       <h1 className="display-3">Proyectos</h1>
+      </Fade>
     <Row className="font-nice mr-0 ml-1">
     <Col sm="12" md="6"  xl="3" className="mt-5 mb-2">
     <div className="thecard">
       <Card className="thecard__side thecard__side--front shadow " style={{ Height: '320px'}} >
-     <CardImg top width="50%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CrHaiDvhoVRpaWJu6PKHfm7fzNxMKfiXnuI7yB8r2iF9X4iG" alt="Card image cap" />
+     <CardImg top width="50%" height="45%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CrHaiDvhoVRpaWJu6PKHfm7fzNxMKfiXnuI7yB8r2iF9X4iG" alt="Card image cap" />
      <CardBody>
        <CardTitle className="font-weight-bold">CloseMap</CardTitle>
        <CardText className="font-s">CloseMap es una aplicación Web donde puedes encontrar restaurantes cerca de ti, filtrar restaurantes específicos con un ranking mayor a 3 puntos, los restaurantes abiertos y los más cercanos.</CardText>

@@ -35,17 +35,17 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className=" ml-auto " navbar>
-              <NavItem>
+              <NavItem className="p-2">
             <Link
                   activeClass="active"
-                  className="text-white mr-3 handy"
+                  className="text-white mr-3 handy "
                   to="aboutme"
                   spy={true}
                   smooth={true}
                   offset={-50}
                   duration={500}> Acerca de Mi</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-2">
               <Link
                   activeClass="active"
                   className="text-white mr-3 handy"
@@ -55,7 +55,7 @@ export default class Example extends React.Component {
                   offset={-70}
                   duration={500}>Proyectos</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-2">
               <Link
                     activeClass="active"
                     className="text-white mr-3 handy"
@@ -65,7 +65,7 @@ export default class Example extends React.Component {
                     offset={-70}
                     duration={500}>Curriculum</Link>
               </NavItem>
-              <NavItem>
+              <NavItem className="p-2">
                 <Link
                     activeClass="active"
                     className="text-white handy"

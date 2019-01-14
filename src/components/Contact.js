@@ -1,10 +1,12 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-
+import Fade from 'react-reveal/Fade';
 const  Contact = (props) => {
   return (
     <div id="contact"className="bg-danger clearfix">
+    <Fade left>
     <h1 className="display-3 text-white">Contacto</h1>
+    </Fade>
     <Row className="mr-0">
     <Col  xs={{ size: 11, offset: 1 }} md="6" xl={{ size: 3, offset: 1 }} className="mt-4">
     <h5 className="font-nice text-white">Sígueme</h5>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './assets/logogeek.png';
 
 import './App.css';
+import Fade from 'react-reveal/Fade';
 
 import Navbar from './components/Navbar';
 import Aboutme from './components/Aboutme';
@@ -15,9 +16,11 @@ class App extends Component {
         <Navbar/>
         <header className="App-header text-center">
           <img src={logo} className="img-fluid App-logo" alt="logo" />
-            <p className=" display-4 text-danger" >
+          <Fade left>
+            <p className=" display-4 text-danger font-weight-bold text-shaw" >
               Frontend Developer
             </p>
+            </Fade>
           <p>
             Javascript | HTML5/CSS3 | ReactJS | Firebase | NodeJS | Bootstrap | Metodología Ágil
           </p>
