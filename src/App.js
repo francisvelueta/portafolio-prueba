@@ -15,7 +15,7 @@ class App extends Component {
         <Navbar/>
         <header className="App-header text-center">
           <img src={logo} className="img-fluid App-logo" alt="logo" />
-            <p className=" display-4">
+            <p className=" display-4 text-danger" >
               Frontend Developer
             </p>
           <p>

@@ -31,7 +31,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="danger" light expand="md" fixed="top">
-          <NavbarBrand className="text-white handy" onClick={this.scrollToTop}>Francis Velueta</NavbarBrand>
+          <NavbarBrand className="font-nice text-white font-weight-bold handy" onClick={this.scrollToTop}>Francis Velueta</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className=" ml-auto " navbar>
@@ -42,7 +42,7 @@ export default class Example extends React.Component {
                   to="aboutme"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-50}
                   duration={500}> Acerca de Mi</Link>
               </NavItem>
               <NavItem>
